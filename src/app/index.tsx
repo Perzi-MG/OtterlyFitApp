@@ -1,4 +1,3 @@
-import { RoundedButton } from '@/components/RoundedButton';
 import { Link, useRouter } from 'expo-router'
 import { View, Text, Pressable } from 'react-native'
 export default function index() {
