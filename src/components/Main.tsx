@@ -6,7 +6,7 @@ import MainContent from './MainContent';
 export default function Main() {
     return (
         <SafeAreaProvider className=''>
-            <ScrollView className='h-full flex-1'>
+            <ScrollView className='h-full flex-1 bg-brandGray'>
                 <MainCard />
                 <MainContent/>
             </ScrollView>

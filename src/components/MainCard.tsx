@@ -6,7 +6,7 @@ import { MenuIcon, SearchIcon } from "../assets/icons/icons";
 
 export default function MainCard() {
     return (
-        <View className="rounded-[40px] w-full overflow-hidden">
+        <View className="rounded-b-[40px] w-full overflow-hidden">
             <LinearGradient
                 colors={['#E3E2A9', '#BFC8B5', '#C9CBD7']}
                 start={{ x: 0, y: 0 }}
@@ -15,7 +15,7 @@ export default function MainCard() {
             >
                 <View className='flex-1 flex-col gap-6 z-20'>
                     <View className='flex flex-row justify-between items-center pt-safe'>
-                        <RoundedButton>
+                        <RoundedButton type="back">
                             <MenuIcon/>
                         </RoundedButton>
                         <RoundedButton>
