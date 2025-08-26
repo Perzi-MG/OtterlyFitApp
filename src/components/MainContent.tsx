@@ -12,17 +12,17 @@ const AddCardContents: AddCardProps[] = [
     {
         text1: 'Agregar',
         text2: 'Cita',
-        children: <PlusIcon />
+        children: <PlusIcon color='lightBlue'/>
     },
     {
         text1: 'Agregar',
         text2: 'Paciente',
-        children: <PlusIcon />
+        children: <PlusIcon color='lightBlue'/>
     },
     {
         text1: 'Ver',
         text2: 'Algo',
-        children: <CheckIcon/>
+        children: <CheckIcon color='lightBlue'/>
     }
 ]
 

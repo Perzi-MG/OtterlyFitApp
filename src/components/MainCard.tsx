@@ -8,7 +8,7 @@ export default function MainCard() {
     return (
         <View className="rounded-b-[40px] w-full overflow-hidden">
             <LinearGradient
-                colors={['#E3E2A9', '#BFC8B5', '#C9CBD7']}
+                colors={['#50CCA6', '#C5C8D9']}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 0 }}
                 style={{ flex: 1, paddingHorizontal: 20, paddingBottom: 20 }}
