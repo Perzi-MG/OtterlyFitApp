@@ -16,7 +16,7 @@ export default function MainCard() {
                 <View className='flex-1 flex-col gap-6 z-20'>
                     <View className='flex flex-row justify-between items-center pt-safe'>
                         <RoundedButton type="back">
-                            <MenuIcon/>
+                            <MenuIcon color="lightBeige"/>
                         </RoundedButton>
                         <RoundedButton>
                             <Text className="text-lightBlue font-semibold">Foto</Text>
@@ -27,7 +27,7 @@ export default function MainCard() {
                             Bienvenido
                         </Text>
                         <RoundedButton>
-                            <SearchIcon/>
+                            <SearchIcon color="lightBlue"/>
                         </RoundedButton>
                     </View>
                     <Text className='text-4xl font-semibold -mt-5'>Mike!</Text>

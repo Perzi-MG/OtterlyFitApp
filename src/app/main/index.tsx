@@ -1,9 +1,9 @@
-import Main from '@/components/Main'
+import MainScreen from '@/screens/MainScreen'
 import { View } from 'react-native'
 export default function index() {
   return (
     <View className='flex-1'>
-        <Main/>
+        <MainScreen/>
     </View>
   )
 }

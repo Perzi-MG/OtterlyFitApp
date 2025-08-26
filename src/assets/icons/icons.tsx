@@ -1,22 +1,43 @@
 import Feather from '@expo/vector-icons/Feather';
-import { colors } from '../colors';
+import AntDesign from '@expo/vector-icons/AntDesign';
+import { colors, ColorKeys } from '../colors';
 
-export const MenuIcon = (props: any) => (
-    <Feather name="menu" size={24} color={colors.lightBeige} {...props} />
-)
+export const MenuIcon = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="menu" size={28} color={colors[color]} {...props} />
+);
+export const SearchIcon = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="search" size={28} color={colors[color]} {...props} />
+);
 
-export const SearchIcon = (props: any) => (
-    <Feather name="search" size={24} color={colors.lightBlue} {...props} />
-)
+export const MinusIcon = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="minus-circle" size={28} color={colors[color]} {...props} />
+);
 
-export const MinusIcon = (props: any) => (
-    <Feather name="minus-circle" size={24} color={colors.lightBlue} {...props} />
-)
+export const PlusIcon = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="plus-circle" size={28} color={colors[color]} {...props} />
+);
 
-export const PlusIcon = (props: any) => (
-    <Feather name="plus-circle" size={24} color={colors.lightBlue} {...props} />
-)
+export const CheckIcon = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="check-circle" size={28} color={colors[color]} {...props} />
+);
 
-export const CheckIcon = (props: any) => (
-    <Feather name="check-circle" size={24} color={colors.lightBlue} {...props}/>
-)
+export const User = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="user" size={28} color={colors[color]} {...props} />
+);
+
+export const ArrowBack = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="chevron-left" size={28} color={colors[color]} {...props} />
+);
+
+export const Mail = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="mail" size={28} color={colors[color]} {...props} />
+);
+export const Lock = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <Feather name="lock" size={28} color={colors[color]} {...props} />
+);
+export const Google = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <AntDesign name="google" size={24} color={colors[color]} {...props} />
+);
+export const Apple = ({ props, color }: { props?: any, color: ColorKeys }) => (
+    <AntDesign name="apple" size={24} color={colors[color]} {...props} />
+);
